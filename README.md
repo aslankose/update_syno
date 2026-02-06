@@ -1,5 +1,5 @@
 # update_syno
-Update Synology Configuration file to disable/enable drive compatibility configuration. 
+Update Synology Configuration file to disable/enable drive compatibility check configuration. 
 
 How to use this script
 1. Create the file:
