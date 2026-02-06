@@ -14,4 +14,4 @@ How to use this script
 Key Details
 sed -i: This command performs an "in-place" edit. It finds the line starting with your field name and replaces the entire line with the new value.
 grep: We use this to pull the current value so the user knows exactly what the file looks like before they change anything.
-Safety: If you choose option 3 (Manual Edit), the script hands control over to vi. Once you 
+Safety: If you choose option 3 (Manual Edit), the script hands control over to vi. Once you save and exit vi (:wq), the script resumes and asks you about the reboot.
