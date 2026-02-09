@@ -11,7 +11,7 @@ How to use this script
   Since you are editing a system file in /etc.defaults/, you must run it with root privileges:
   sudo ./update_syno.sh
 
-A reboot is needed. You can simply select "y" or "N" and reboot in Synology. 
+A reboot is needed. You can simply select "y" to reboot from terminal or "N" and reboot in Synology. 
 
 sed -i: This command performs an "in-place" edit. It finds the line starting with your field name and replaces the entire line with the new value.
 grep: We use this to pull the current value so the user knows exactly what the file looks like before they change anything.
